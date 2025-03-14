@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(107 2% 2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Bio Section */
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100% auto;
+    margin: 50px auto;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+}
+
+/* Left Section (Photo) */
+.bio-left {
+    flex: 1;
+    text-align: center;
+}
+
+.bio-left img {
+    width: 200px ;
+    height: 200px ;
+    border-radius: 50%;
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+}
+
+/* Right Section (Text) */
+.bio-right {
+    flex: 2;
+    padding: 20px;
+}
+
+.bio-right h2 {
+    color: #00ff00;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bio-right p {
+    color: white;
+    line-height: 1.5;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #040f0f;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-content {
+    position: relative;
+}
+
+.home-content h3:nth-child(1) {
+    animation: slideRight 1s ease forwards;
+}
+
+.home-content h1 {
+    animation: slideBottom 1s ease forwards;
+}
+
+.home-content h3:nth-child(3) {
+    animation: slideLeft 1s ease forwards;
+}
+
+.home-content p {
+    animation: slideTop 1s ease forwards;
+}
+.home-sci a:nth-child(1) {
+    animation: slideLeft 1s ease forwards;
+}
+
+.home-sci a:nth-child(2) {
+    animation: slideRight 1s ease forwards;
+}
+
+.home-sci a:nth-child(3) {
+    animation: slideLeft 1s ease forwards;
+}
+
+.home-sci a:nth-child(4) {
+    animation: slideRight 1s ease forwards;
+}
+
+.home-sci a:nth-child(5) {
+    animation: slideLeft 1s ease forwards;
+}
+
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background: aqua;
+    color: #040f0f;
+    box-shadow: 0 0 20px aqua;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid aqua;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    animation: slideTop 1s ease forwards;
+}
+
+.btn-box:hover {
+    background: aqua;
+    color: #040f0f;
+    box-shadow: 0 0 20px aqua;
+}
+
+/* Keyframes for animations */
+@keyframes slideRight {
+    0% { transform: translateX(-100px); opacity: 0; }
+    100% { transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes slideLeft {
+    0% { transform: translateX(100px); opacity: 0; }
+    100% { transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes slideTop {
+    0% { transform: translateY(100px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes slideBottom {
+    0% { transform: translateY(-100px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
