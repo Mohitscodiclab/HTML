@@ -31,11 +31,11 @@ project-folder/
 ## 📖 How to Use  
 1. Clone the repository:  
    ```sh  
-   git clone https://github.com/mohitscodiclab/repository-name.git  
+   git clone https://github.com/mohitscodiclab/repository-HTML.git  
    ```  
 2. Navigate to the project folder:  
    ```sh  
-   cd repository-name  
+   cd repository-name
    ```  
 3. Open `index.html` in your browser.  
 
