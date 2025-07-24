@@ -90,7 +90,5 @@ MIT License – free to use and modify.
 
 ---
 
-### Made with ❤️ by \[mohitscodiclab]
-
-```
+### Made with ❤️ by mohitscodiclab
 
