@@ -1,4 +1,3 @@
-```markdown
 # 🌫️ Transparent Form Design (Glassmorphism UI)
 
 A stylish and modern **transparent login and registration form** built using **HTML5**, **CSS3**, and **JavaScript**. The forms feature a beautiful **blurred glass effect** (Glassmorphism) to give a sleek and modern user interface.
@@ -47,7 +46,7 @@ transparent-form-design/
 1. **Clone the repo**
    ```bash
    git clone https://github.com/mohitscodiclab/transparent-form-design.git
-````
+``
 
 2. **Open `index.html`** in any browser.
 
