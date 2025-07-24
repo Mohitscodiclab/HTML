@@ -44,9 +44,11 @@ transparent-form-design/
 ## 🛠️ How to Use
 
 1. **Clone the repo**
-   ```bash
-   [git clone https://github.com/mohitscodiclab/transparent-form-design.git](https://github.com/Mohitscodiclab/HTML/blob/main/Adv_login_page/readme.md)
-``
+   
+```
+ https://github.com/Mohitscodiclab/HTML/blob/main/Adv_login_page
+ 
+```
 
 2. **Open `index.html`** in any browser.
 
